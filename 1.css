@@ -9,7 +9,7 @@ h1.shadow,h2.shadow,h3.shadow,h4.shadow,h5.shadow,h6.shadow {
     font-size: 75%;
 }
 html {
-    background-color: #ddd;
+    background-color: #eee;
 }
 blockquote {
     display: block;
@@ -74,13 +74,19 @@ hr {
 div.left {
     float: left;
     height: 2274.22px;
-    background-color: #ffffff;
+    background-color: #ddd;
 }
 
 div.center {
     float: center;
     height: 2274.22px;
     width: auto;
+}
+
+div.footer {
+    clear: both;
+    background-color: #5f9fd6;
+    text-align: center;
 }
 
 li {
