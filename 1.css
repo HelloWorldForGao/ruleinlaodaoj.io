@@ -92,3 +92,10 @@ a.fixed {
     right: 30px;
     bottom: 30px;
 }
+
+a:link {
+    color: #0000EE;
+}
+a:visited {
+    color: #0000EE;
+}
