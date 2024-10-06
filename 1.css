@@ -74,7 +74,16 @@ hr {
 div.left {
     float: left;
     height: 2274.22px;
+    width: 100px;
+    background-color: #eee;
+}
+
+div.tleft {
+    float: left;
+    height: 2274.22px;
+    width: 70px;
     background-color: #ddd;
+    border-radius: 15px;
 }
 
 div.center {
@@ -87,6 +96,7 @@ div.footer {
     clear: both;
     background-color: #5f9fd6;
     text-align: center;
+    border-radius: 15px;
 }
 
 li {
@@ -104,4 +114,52 @@ a:link {
 }
 a:visited {
     color: #0000EE;
+}
+
+a.bhead:link {
+    background-color: #00ff00;
+    color: #ffffff;
+    border-radius: 15px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+a.bhead:visited {
+    background-color: #00ff00;
+    color: #ffffff;
+    border-radius: 15px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+a.bhead:hover {
+    background-color: #00aa00;
+    color: #ffffff;
+    border-radius: 15px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+a.bhead:active {
+    background-color: #007700;
+    color: #ffffff;
+    border-radius: 15px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+a.nounder {
+    text-decoration: none;
 }
